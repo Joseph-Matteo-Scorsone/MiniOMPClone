@@ -95,7 +95,7 @@ private:
 std::mutex outputMutex;
 
 int main() {
-    int numThreads = 10;
+    int numThreads = 5;
 
     // Create a MiniOMP instance with the specified number of threads
     MiniOMP omp(numThreads);
