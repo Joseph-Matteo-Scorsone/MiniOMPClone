@@ -225,7 +225,7 @@ class NeuralNetwork{
 
 int main() {
 
-    int inputSize = 5; // n amount of last values to predict with
+    int inputSize = 10; // n amount of last values to predict with
     int hiddenLayerSize = 3;
     int outputSize = 1; // Predicting a single value
     int numHiddenLayers = 1;
